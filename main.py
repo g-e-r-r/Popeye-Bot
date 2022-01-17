@@ -28,6 +28,10 @@ async def rules(ctx):
     embed2 = discord.Embed(title=f"{ctx.guild.name}", description="Help", timestamp=datetime.datetime.utcnow(), color=discord.Color.green())
     embed2.add_field(name="Rule 1", value="No griefing")
     embed2.add_field(name="Rule 2", value="Usa cada canal correctamente")
+    embed2.add_field(name="Rule 3", value="No spam de mensajes")
+    embed2.add_field(name="Rule 4", value="No menciones innecesarias a mods")
+    embed2.add_field(name="Rule 5", value="Comandos de bots donde no corresponde sera causante de warning")
+    embed2.add_field(name="Rule 6", value="")
     await ctx.send(embed=embed2)
 
 @bot.command()
